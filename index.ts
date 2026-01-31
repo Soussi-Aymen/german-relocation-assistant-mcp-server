@@ -3,7 +3,6 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { GoogleGenAI } from "@google/genai";
-
 /**
  * PROJECT: Berlin Relocation Assistant MCP Server
  * EVENT: MCP Hackathon - build AI-first products and services
@@ -14,7 +13,7 @@ import { GoogleGenAI } from "@google/genai";
  */
 
 // Initialize Gemini API
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
 
 // Initialize MCP Server
 const server = new McpServer({
