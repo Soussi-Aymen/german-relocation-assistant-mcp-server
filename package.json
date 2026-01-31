@@ -1,0 +1,22 @@
+{
+  "name": "berlin-relocation-assistant-mcp-server",
+  "version": "1.0.0",
+  "description": "AI-first MCP server for 2026 Berlin administrative rights and relocation assistance.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.25.3",
+    "@google/genai": "^1.39.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0"
+  }
+}
