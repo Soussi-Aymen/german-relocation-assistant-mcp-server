@@ -3,7 +3,7 @@
 **Project Name:** German Relocation Assistant MCP Server  
 **Hackathon:** *MCP Hackathon - build AI-first products and services*
 
-An AI-first Model Context Protocol (MCP) server providing real-time relocation assistance and legal rights automation for expats in Berlin.  
+An AI-first Model Context Protocol (MCP) server providing real-time relocation assistance and legal rights automation for expats in Germany.  
 Built for the 2026 administrative landscape using Gemini 3 reasoning with Google Search grounding.
 
 ## Technical Summary
