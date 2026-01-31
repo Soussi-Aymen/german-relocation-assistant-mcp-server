@@ -18,7 +18,7 @@ const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || "" });
 
 // Initialize MCP Server
 const server = new McpServer({
-  name: "berlin-relocation-assistant",
+  name: "german-relocation-assistant",
   version: "1.0.0",
 });
 
